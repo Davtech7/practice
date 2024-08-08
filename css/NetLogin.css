@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/img/Netflix-Background.jpg);
+    opacity: 0.9;
+}
+
+.navbox1{
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-logo1 img{
+    /* background-color: aquamarine; */
+    width: 180px;
+    margin-top: -33px;
+}
+.navbtn1{
+    margin-top: 25px;
+}
+
+.navbtn1 a{
+    text-decoration: none;
+}
+
+.navbtn1 .signup1,
+.navbtn1 .login1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    margin-left: 15px;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.navbtn1 .signup1{
+    background-color: rgb(59, 55, 55);
+    border: solid 1px rgb(142, 139, 139);
+    opacity: 0.9;
+}
+
+.navbtn1 .login1{
+    background-color: rgb(255, 0, 0);
+}
+
+.form-cont{
+    background-color: rgb(0, 0, 0);
+    width: 28%;
+    height: 650px;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 65px;
+    opacity: 0.9;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -0.5rem;
+}
+
+form{
+    width: auto;
+    margin-top: 1.7rem;
+    /* background-color: aquamarine; */
+}
+
+div{
+    margin-top: 1rem;
+}
+
+input[type="email"],
+input[type="text"]{
+    width:100%;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 19, 19);
+    padding: 15px;
+    border: 1px solid rgb(130, 126, 126);
+    border-radius: 4px;
+    /* opacity: 0.8; */
+}
+
+input[type="email"]::placeholder,
+input[type="text"]::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.other-input{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.other-input input[type="checkbox"]:checked{
+    background-color: aquamarine;
+}
+
+label{
+    margin-left: 10px;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.button1 {
+    width: 100%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 54, 54);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: rgb(202, 16, 16);
+}
+.button1:hover{
+    background-color: rgb(44, 43, 43);
+}
+
+.center{
+    margin-top: 1.5rem;    
+}
+
+.forgot{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.forgot:hover{
+    color:  rgb(207, 199, 199);
+    border-bottom: 1px solid rgb(207, 199, 199);
+}
+
+.now{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+}
+
+.now:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.div{
+    display: flex;
+    margin-top: 1.3rem;
+}
+/* .div1{
+    display: flex;
+} */
+
+.par1{
+    color: rgb(218, 221, 224);
+    text-align: left;
+    font-size: 17px;
+}
+
+.par2{
+    color: rgb(178, 183, 187);
+    text-align: left;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.learn{
+    text-decoration: none;
+    color: rgb(40, 90, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.learn:hover{
+    border-bottom: 1px solid rgb(58, 104, 255);;
+}
+
+@media (max-width:376px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 100%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+
+@media (min-width:377px) and (max-width:581px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 95%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+
+@media (min-width:582px) and (max-width:595px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 50%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+
+@media (min-width:596px) and (max-width:716px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 75%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+@media (min-width:717px) and (max-width:724px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 55%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+@media (min-width:725px) and (max-width:801px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 50%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+
+@media (min-width:802px) and (max-width:830px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 45%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+@media (min-width:831px) and (max-width:900px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 45%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+@media (min-width:901px) and (max-width:1200px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 35%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}
+@media (min-width:1201px) and (max-width:1423px) {
+    .form-cont{
+        background-color: rgb(0, 0, 0);
+        min-width: 30%;
+        align-items: center;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 65px;
+        opacity: 0.9;
+    }
+}

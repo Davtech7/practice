@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.table-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-container table{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.table-container table thead th{
+    background-color: rgb(192, 52, 52);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.table-container table tbody tr:nth-child(odd){
+    background-color: rgb(198, 204, 19);
+
+}
+
+.table-container table td:nth-last-child(odd){
+    background-color: rgb(26, 34, 64);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.table1-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table1-container table{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.table1-container table thead th{
+    background-color: rgb(16, 215, 40);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table1-container table tbody tr:nth-child(odd){
+    background-color: rgb(72, 73, 66);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.table1-container table td:nth-last-child(odd){
+    background-color: rgb(144, 85, 27);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.table2-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table2-container table{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.table2-container table thead th{
+    background-color: rgb(43, 158, 127);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table2-container table tbody tr:nth-child(odd){
+    background-color: rgb(186, 205, 76);
+    font-family: 'Roboto', sans-serif;
+}
+
+.table2-container table td:nth-last-child(odd){
+    background-color: rgb(77, 22, 206);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.table3-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table3-container table{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.table3-container table thead th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table3-container table tbody tr:nth-child(odd){
+    background-color: rgb(20, 174, 182);
+    font-family: 'Roboto', sans-serif;
+}
+
+.table3-container table tbody td:nth-last-child(odd){
+    background-color: rgb(228, 98, 98);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.table4-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table4-container table{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.table4-container table thead th{
+    background-color: rgb(235, 39, 39);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.table4-container table tbody tr:nth-child(odd){
+    background-color: rgb(101, 101, 198);
+    font-family: 'Roboto', sans-serif;
+    /* color: white; */
+}
+
+.table4-container table tbody td:nth-last-child(odd){
+    background-color: rgb(218, 123, 45);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+

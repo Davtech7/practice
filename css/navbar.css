@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar{
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px outset rgb(99, 98, 98);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlogo{
+    /* background-color: aquamarine; */
+    padding: 2px;
+    /* margin-top: 7px; */
+}
+.navlogo img{
+    width: 100px;
+    height: 70px;
+    /* margin-top: 5px; */
+} 
+
+.navlink ul{
+    list-style: none;
+    display: flex;
+}
+
+.navlink li{
+    margin: 15px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.navlink a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px;
+}
+
+.navlink a:hover{
+    background-color: rgb(203, 43, 94);
+    border-radius: 4px;
+    cursor: default;
+}
+
+.navbar-buttons{
+    margin-top: 40px;
+}
+
+.active{
+    background-color: rgb(16, 43, 179);
+    border-radius: 4px;
+}
+
+.navbar-buttons .btn-signup,
+.navbar-buttons .btn-signin {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    cursor: default;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.navbar-buttons .btn-signup{ 
+    border: solid 2px rgb(203, 43, 94); 
+}
+
+.navbar-buttons .btn-signin{
+        border: solid 2px rgb(16, 43, 179); 
+}
+
+.navbar-buttons .btn-signup:hover{
+    background-color: rgb(203, 43, 94);
+}
+
+.navbar-buttons .btn-signin:hover{
+    background-color:  rgb(44, 75, 229);
+}
+
+.menu-icon{ 
+    display: none;
+    flex-direction: column;
+    cursor: default;
+    position: relative;
+    top: 33px;
+}
+
+.menu-icon div{
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+
+.about-container h1{
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 253, 253);    
+}
+.Us{
+    color: rgb(44, 75, 229);
+}
+
+.about-container{
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-inner{
+    background-color: rgb(4, 4, 4); 
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    /* border: 1px outset rgb(92, 89, 89); */
+    box-shadow: 0px 2px 7px inset rgb(34, 32, 32);
+}
+
+.img-container{
+    min-width: 250px;
+    max-width: 400px;
+    flex: 2;
+}
+
+.img-container img{
+    width: 295px;
+    height: 330px;
+    border-radius: 0 15px 0 15px;
+    border: solid 2px rgb(16, 43, 179);
+}
+
+.about-text{
+    flex: 2;
+    padding: 20px;
+    min-width: 250px;
+    max-width: 600px;
+    text-align: left;
+}
+.about-text p{
+    margin: 0;
+    color: rgb(251, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 344px) {
+    .about-inner {
+        flex-direction: column;
+    }
+
+   .img-container, .about-text {
+    width: auto;
+    padding: 10px;
+   } 
+}
+
+@media (min-width: 345px) and (max-width: 768px) {
+    .about-inner {
+        flex-direction: column;
+    }
+
+   .img-container, .about-text {
+    width: auto;
+    padding: 10px;
+   } 
+}
+
+@media (max-width: 270px) {
+    .navlink {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlink li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .navlink.active {
+        display: flex;
+    }
+}
+
+    @media (min-width: 271px) and (max-width: 768px) {
+        .navlink {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+    .navlink li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .navlink.active {
+        display: flex;
+    }
+}
